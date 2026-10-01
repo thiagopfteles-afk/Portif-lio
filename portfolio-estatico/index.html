@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiago - Desenvolvedor de Software</title>
+    <meta name="description" content="Portfólio de Thiago, Desenvolvedor de Software especializado em Java e Spring Boot.">
+    
+    <!-- Open Graph for SEO -->
+    <meta property="og:title" content="Thiago - Desenvolvedor de Software">
+    <meta property="og:description" content="Portfólio de Thiago, Desenvolvedor de Software especializado em Java e Spring Boot.">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon (TODO: Add proper favicon) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-content">
+            <a href="#" class="logo">Thiago<span>.dev</span></a>
+            
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">
+                    <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+                
+                <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero container reveal">
+            <div class="hero-content">
+                <span class="greeting">Olá, eu sou</span>
+                <h1 class="hero-title">Thiago Teles</h1>
+                <h2 class="hero-subtitle">Desenvolvedor de Software</h2>
+                <p class="hero-text">Criando soluções escaláveis e eficientes, com foco especial no ecossistema Java e desenvolvimento backend robusto.</p>
+                <div class="hero-buttons">
+                    <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+                    <a href="#contato" class="btn btn-secondary">Entrar em Contato</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre Section -->
+        <section id="sobre" class="section container reveal">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <p>Sou um desenvolvedor apaixonado por resolver problemas complexos através de código limpo e arquiteturas bem definidas. Minha experiência principal gira em torno de Java, criando APIs RESTful robustas com Spring Boot, e interfaces funcionais usando JavaFX. Estou sempre em busca de aprender novas tecnologias e aprimorar a qualidade do software que entrego.</p>
+                <!-- TODO: Adicione uma bio mais detalhada se preferir -->
+            </div>
+        </section>
+
+        <!-- Habilidades Section -->
+        <section id="habilidades" class="section container reveal">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Linguagens</h3>
+                    <div class="badges">
+                        <span class="badge">Java</span>
+                        <span class="badge">JavaScript</span>
+                        <span class="badge">HTML5</span>
+                        <span class="badge">CSS3</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="badges">
+                        <span class="badge">Spring Boot</span>
+                        <span class="badge">REST APIs</span>
+                        <span class="badge">Weka (Machine Learning)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend & Desktop</h3>
+                    <div class="badges">
+                        <span class="badge">JavaFX</span>
+                        <span class="badge">CSS Flexbox/Grid</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Ferramentas</h3>
+                    <div class="badges">
+                        <span class="badge">Git</span>
+                        <span class="badge">GitHub</span>
+                        <!-- TODO: Adicione outras ferramentas (Docker, bancos de dados, etc.) -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos Section -->
+        <section id="projetos" class="section container reveal">
+            <h2 class="section-title">Projetos em Destaque</h2>
+            <div class="projects-grid">
+                
+                <!-- Projeto 1 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">SecureBank - Fraud Detection API</h3>
+                        <p class="project-desc">Sistema inteligente de detecção de fraudes bancárias. Utiliza técnicas de IA e Machine Learning com a biblioteca Weka para classificar transações como legítimas ou fraudulentas.</p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">Weka</span>
+                            <span class="tag">Machine Learning</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/thiagopfteles-afk/SecureBank---Fraud-Detection-API" target="_blank" rel="noopener noreferrer" class="btn btn-outline" aria-label="Ver código do SecureBank no GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            Código
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Projeto 2 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">MVP Silver Economy Backend</h3>
+                        <p class="project-desc">API RESTful desenvolvida para o ecossistema do MVP Silver Economy, focado em soluções para o público 50+.</p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">REST API</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/thiagopfteles-afk/mvp-silver-economy-backend" target="_blank" rel="noopener noreferrer" class="btn btn-outline" aria-label="Ver código do MVP Silver Economy no GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            Código
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Projeto 3 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Sistema de Clima</h3>
+                        <p class="project-desc">Aplicação que consome uma API climática externa para fornecer e exibir dados meteorológicos em tempo real.</p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">API Integration</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/thiagopfteles-afk/Sistema-de-Clima" target="_blank" rel="noopener noreferrer" class="btn btn-outline" aria-label="Ver código do Sistema de Clima no GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            Código
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Projeto 4 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Gerador de Senhas</h3>
+                        <p class="project-desc">Utilitário de desktop para geração de senhas seguras. Interface desenvolvida com JavaFX e estilizada via CSS.</p>
+                        <div class="project-tags">
+                            <span class="tag">Java 22</span>
+                            <span class="tag">JavaFX</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/thiagopfteles-afk/Gerador_De_Senhas" target="_blank" rel="noopener noreferrer" class="btn btn-outline" aria-label="Ver código do Gerador de Senhas no GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            Código
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Projeto 5 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Relógio Digital</h3>
+                        <p class="project-desc">Relógio digital interativo para desktop, construído em Java moderno com interface gráfica baseada em JavaFX e CSS.</p>
+                        <div class="project-tags">
+                            <span class="tag">Java 22</span>
+                            <span class="tag">JavaFX</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/thiagopfteles-afk/Relogio-Digital-" target="_blank" rel="noopener noreferrer" class="btn btn-outline" aria-label="Ver código do Relógio Digital no GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            Código
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contato Section -->
+        <section id="contato" class="section container reveal">
+            <div class="contact-box">
+                <h2 class="section-title">Vamos conversar?</h2>
+                <p>Estou sempre aberto a novas oportunidades e desafios. Sinta-se à vontade para me contatar.</p>
+                <div class="contact-links">
+                    <a href="mailto:TODO_SEU_EMAIL_AQUI@email.com" class="btn btn-primary" aria-label="Enviar e-mail">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        E-mail
+                    </a>
+                    <a href="https://github.com/thiagopfteles-afk" target="_blank" rel="noopener noreferrer" class="btn btn-outline" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        GitHub
+                    </a>
+                    <a href="TODO_SEU_LINKEDIN_AQUI" target="_blank" rel="noopener noreferrer" class="btn btn-outline" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Thiago Teles. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
